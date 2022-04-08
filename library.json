@@ -1,0 +1,35 @@
+{
+    "products": [
+        {
+            "name": "FNaF Security Alert",
+            "version": "0.4.0",
+            "description": "Play Five Nights at Freddy's Security Breach multiplayer with friends, against one another and the AI.",
+            "id": 747660,
+            "store": 747660,
+            "size": "1.4 GB",
+            "release": "8 April, 2022",
+            "banner": "https://cdn.cloudflare.steamstatic.com/steam/apps/747660/library_hero.jpg",
+            "support": "https://discord.gg/UtkrFvFQbn",
+            "path": "Quarters/",
+            "download": "https://mega.nz/folder/YihnRKKT#oIb1Iitxb3B56MO4cxeBLQ",
+            "changelog": "## 0.4.0\n### Added Features\n\n**AI Vs Gregory**\n- We have made big changes to AI Vs Gregory to make it a more interactive experience instead of 3 animatronics chasing you there is only 1 and this dude will RUN he is also not in the SB base game but from another fnaf game;\n- On top of this we have given all animatronics in AI vs Gregory glowing eyes, and implemented mechanics to improve users interactivity with said mode.\n\n**Base Game**\n- As all of you are probably aware we have added Vanny in the character selection menu she can run she can't jump and we gave her a ability.\n\t- If you press Q while playing as Vanny and your near a Gregory a decoy will spawn right in front of where that Gregory is looking. It's meant to be used as a distraction technique so lemme know how it plays out.\n\n**Lobby Changes**\n- We have added montys ball cannons into the lobby there are 2 of them on either side of the main entrance and they get destroyed when the match starts.\n\t- Left click to shoot;\n\t- Right click to zoom in.\n\n### Bug Fixes\n- Fixed Gregory not getting destroyed after being jump scared;\n- Fixed a issue where when first loading into a game the quality settings would default to Nintendo switch quality;\n- Overall performance improvements.",
+            "arguments": ["-dx11"],
+            "install": [
+                "EXTRACT 1 %Game%/fnaf9/Content/Paks",
+                "EXTRACT 2 %LocalAppData%/fnaf9/Saved/Config/WindowsNoEditor",
+                "EXTRACT 3 %Game%/fnaf9/Content/Movies"
+            ],
+            "disable": [
+                "DISABLE %Game%/fnaf9/Content/Paks/fnaf9.pak",
+                "DISABLE %LocalAppData%/fnaf9/Saved/Config/WindowsNoEditor/Engine.ini",
+                "DISABLE %Game%/fnaf9/Content/Movies/Menu.mp4"
+            ],
+            "uninstall": [
+                "DELETE %Game%/fnaf9/Content/Paks/fnaf9.pak",
+                "DELETE %LocalAppData%/fnaf9/Saved/Config/WindowsNoEditor/Engine.ini",
+                "DELETE %Game%/fnaf9/Content/Movies/Menu.mp4"
+            ],
+            "backup": "%LocalAppData%/fnaf9/Saved/SaveGames"
+        }
+    ]
+}

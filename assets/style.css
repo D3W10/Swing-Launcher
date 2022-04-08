@@ -1,0 +1,156 @@
+:root {
+    --background: #000000;
+    --foreground: #eeeeee;
+    --littleOverlay: rgba(255, 255, 255, 0.075);
+    --overlay: rgba(255, 255, 255, 0.1);
+    --bigOverlay: rgba(255, 255, 255, 0.2);
+    --aquamarine: #b4fadc;
+    --lightSea: #a0f1da;
+    --happyBlue: #3ec4d6;
+    --deepOcean: #0377a8;
+    --roseMadder: #e23131;
+    --bronze: #e28431;
+    --lime: #6ed63e;
+    --boxShadow: rgb(155 155 144 / 30%) 0px 4px 29px 0px;
+    --updateBoxShadow: rgb(110 214 62 / 30%) 0px 4px 29px 0px;
+}
+
+/* #region BASICS */
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--overlay);
+    border-radius: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    color: var(--foreground);
+    background-color: var(--background);
+    font-family: montserrat;
+    font-weight: 500;
+    overflow: hidden;
+    user-select: none;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 0 0 50px 0;
+    font-size: 1.2em;
+    font-weight: inherit;
+}
+
+img {
+    display: block;
+    -webkit-user-drag: none;
+}
+
+button {
+    width: fit-content;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 0;
+    outline: 0;
+    color: var(--background);
+    background-color: var(--happyBlue);
+    border-radius: 10px;
+    opacity: 1;
+    font: inherit;
+    font-weight: bold;
+    filter: unset;
+    cursor: pointer;
+    overflow: hidden;
+    transition: filter 0.4s, opacity 0.4s;
+    z-index: 1;
+}
+
+button::before {
+    content: "";
+    width: 0px;
+    padding-bottom: 0px;
+    position: absolute;
+    background-color: var(--bigOverlay);
+    border-radius: 100vw;
+    transition: width 0.4s, padding-bottom 0.4s;
+    z-index: -1;
+}
+
+button:hover::before {
+    width: 105%;
+    padding-bottom: 105%;
+}
+
+footer {
+    width: 100vw;
+    padding: 10px;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+#content {
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#launcherLogo {
+    width: 100px;
+    height: 100px;
+}
+
+#backOverlay {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/* #endregion */
+
+/* #region RULES */
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --background: #ffffff;
+        --foreground: #111111;
+        --littleOverlay: rgba(0, 0, 0, 0.075);
+        --overlay: rgba(0, 0, 0, 0.1);
+        --bigOverlay: rgba(0, 0, 0, 0.2);
+        --boxShadow: rgb(100 100 111 / 30%) 0px 4px 29px 0px;
+    }
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url("./montserrat.ttf");
+    font-weight: 1 999;
+    font-style: normal;
+}
+
+/* #endregion */
