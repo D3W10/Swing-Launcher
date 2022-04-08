@@ -39,7 +39,7 @@
             document.getElementById("launcherDownload").addEventListener("click", async () => {
                 let dl = await fetch("https://api.github.com/repos/D3W10/Swing-Launcher-Releases/releases/latest");
                 dl = await dl.json();
-                window.open(dl.data.assets[0].browser_download_url, "_self");
+                window.open(dl.assets[0].browser_download_url, "_self");
             });
         </script>
     </body>
