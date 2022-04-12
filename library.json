@@ -2,17 +2,17 @@
     "products": [
         {
             "name": "FNaF Security Alert",
-            "version": "0.4.0",
+            "version": "0.4.1",
             "description": "Play Five Nights at Freddy's Security Breach multiplayer with friends, against one another and the AI.",
             "id": 747660,
             "store": 747660,
             "size": "1.4 GB",
-            "release": "8 April, 2022",
+            "release": "12 April, 2022",
             "banner": "https://cdn.cloudflare.steamstatic.com/steam/apps/747660/library_hero.jpg",
             "support": "https://discord.gg/UtkrFvFQbn",
             "path": "Quarters/",
             "download": "https://mega.nz/folder/YihnRKKT#oIb1Iitxb3B56MO4cxeBLQ",
-            "changelog": "## 0.4.0\n### Added Features\n\n**AI Vs Gregory**\n- We have made big changes to AI Vs Gregory to make it a more interactive experience instead of 3 animatronics chasing you there is only 1 and this dude will RUN he is also not in the SB base game but from another fnaf game;\n- On top of this we have given all animatronics in AI vs Gregory glowing eyes, and implemented mechanics to improve users interactivity with said mode.\n\n**Base Game**\n- As all of you are probably aware we have added Vanny in the character selection menu she can run she can't jump and we gave her a ability.\n\t- If you press Q while playing as Vanny and your near a Gregory a decoy will spawn right in front of where that Gregory is looking. It's meant to be used as a distraction technique so lemme know how it plays out.\n\n**Lobby Changes**\n- We have added montys ball cannons into the lobby there are 2 of them on either side of the main entrance and they get destroyed when the match starts.\n\t- Left click to shoot;\n\t- Right click to zoom in.\n\n### Bug Fixes\n- Fixed Gregory not getting destroyed after being jump scared;\n- Fixed a issue where when first loading into a game the quality settings would default to Nintendo switch quality;\n- Overall performance improvements.",
+            "changelog": "## 0.4.0\n### Added Features\n\n**AI Vs Gregory**\n- We have made big changes to AI Vs Gregory to make it a more interactive experience instead of 3 animatronics chasing you there is only 1 and this dude will RUN he is also not in the SB base game but from another fnaf game;\n- On top of this we have given all animatronics in AI vs Gregory glowing eyes, and implemented mechanics to improve users interactivity with said mode.\n\n**Base Game**\n- As all of you are probably aware we have added Vanny in the character selection menu she can run she can't jump and we gave her a ability.\n\t- If you press Q while playing as Vanny and your near a Gregory a decoy will spawn right in front of where that Gregory is looking. It's meant to be used as a distraction technique so lemme know how it plays out.\n\n**Lobby Changes**\n- We have added montys ball cannons into the lobby there are 2 of them on either side of the main entrance and they get destroyed when the match starts.\n\t- Left click to shoot;\n\t- Right click to zoom in.\n\n### Bug Fixes\n- Fixed Gregory not getting destroyed after being jump scared;\n- Fixed a issue where when first loading into a game the quality settings would default to Nintendo switch quality;\n- Overall performance improvements.\n\n## 0.4.1\n### Bug Fixes\n- There is now light in the AI Vs Greg mode (or at least should be ambient light let Spooks know if there is not);\n- DreadBears Jumpscare is fixed you can now see his face when he jumpscares you;\n- vannys area to spawn a decoy has been greatly reduced due to a side affect of her opening doors from far away;\n- Balls on the monty cannon have a Emissive Glow Material too them as expected;\n- In AI Vs Gregory there are blocking volumes preventing access to the trash compactor and the security office (So the AI Should not break Anymore).",
             "arguments": ["-dx11"],
             "install": [
                 "EXTRACT 1 %Game%/fnaf9/Content/Paks",
