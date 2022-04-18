@@ -19,6 +19,7 @@
                 "EXTRACT 2 %LocalAppData%/fnaf9/Saved/Config/WindowsNoEditor",
                 "EXTRACT 3 %Game%/fnaf9/Content/Movies"
             ],
+            "update": [],
             "disable": [
                 "DISABLE %Game%/fnaf9/Content/Paks/fnaf9.pak",
                 "DISABLE %LocalAppData%/fnaf9/Saved/Config/WindowsNoEditor/Engine.ini",
