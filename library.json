@@ -2,33 +2,45 @@
     "products": [
         {
             "name": "FNaF Security Alert",
-            "version": "0.4.1",
+            "version": "0.5.0",
             "description": "Play Five Nights at Freddy's Security Breach multiplayer with friends, against one another and the AI.",
             "id": 747660,
             "store": 747660,
             "size": "1.4 GB",
-            "release": "12 April, 2022",
+            "release": "19 April, 2022",
             "banner": "https://cdn.cloudflare.steamstatic.com/steam/apps/747660/library_hero.jpg",
             "support": "https://discord.gg/UtkrFvFQbn",
-            "path": "Quarters/",
+            "path": "Quarters",
             "download": "https://mega.nz/folder/YihnRKKT#oIb1Iitxb3B56MO4cxeBLQ",
-            "changelog": "## 0.4.0\n### Added Features\n\n**AI Vs Gregory**\n- We have made big changes to AI Vs Gregory to make it a more interactive experience instead of 3 animatronics chasing you there is only 1 and this dude will RUN he is also not in the SB base game but from another fnaf game;\n- On top of this we have given all animatronics in AI vs Gregory glowing eyes, and implemented mechanics to improve users interactivity with said mode.\n\n**Base Game**\n- As all of you are probably aware we have added Vanny in the character selection menu she can run she can't jump and we gave her a ability.\n\t- If you press Q while playing as Vanny and your near a Gregory a decoy will spawn right in front of where that Gregory is looking. It's meant to be used as a distraction technique so lemme know how it plays out.\n\n**Lobby Changes**\n- We have added montys ball cannons into the lobby there are 2 of them on either side of the main entrance and they get destroyed when the match starts.\n\t- Left click to shoot;\n\t- Right click to zoom in.\n\n### Bug Fixes\n- Fixed Gregory not getting destroyed after being jump scared;\n- Fixed a issue where when first loading into a game the quality settings would default to Nintendo switch quality;\n- Overall performance improvements.\n\n## 0.4.1\n### Bug Fixes\n- There is now light in the AI Vs Greg mode (or at least should be ambient light let Spooks know if there is not);\n- DreadBears Jumpscare is fixed you can now see his face when he jumpscares you;\n- vannys area to spawn a decoy has been greatly reduced due to a side affect of her opening doors from far away;\n- Balls on the monty cannon have a Emissive Glow Material too them as expected;\n- In AI Vs Gregory there are blocking volumes preventing access to the trash compactor and the security office (So the AI Should not break Anymore).",
+            "changelog": "## 0.5.0\n### Added Features\n- New immersive and awesome loading screen and menu, it's shiny!\n- Reworked UI, keeping things clean and simple;\n- More control over the match setup (Choose your area, time limit, include AI in particular modes etc);\n- New Monty Boss mode, or should we say...El Monty?\n- Fixes made to the AI in AI vs Gregory mode;\n- New area available: Atrium;\n- Public lobbies has replaced private sessions (Sessions may vary based on region, double check your location in the steam settings before starting or joining sessions!);\n- When a match is over, all players are sent back to the session lobby with the same settings ready to go again. Should the players decide to change the mode or settings, they may do so by bringing up the side menu to the left and clicking the all new Main Menu button.\n### Bug Fixes\n- When entering a session, you will need to press ESC and then click Resume in the menu, not doing so will lock mouse movement. This will be looked into;\n- Do not use the elevators when starting a session, this will cause the clients to crash and the host to cry;\n- When enabling AI in Hide and Seek, there's a chance the animatronics will decide to stop looking for gregory and instead think about all the terrible choices they made in life.",
             "arguments": ["-dx11"],
             "install": [
                 "EXTRACT 1 %Game%/fnaf9/Content/Paks",
                 "EXTRACT 2 %LocalAppData%/fnaf9/Saved/Config/WindowsNoEditor",
                 "EXTRACT 3 %Game%/fnaf9/Content/Movies"
             ],
-            "update": [],
+            "update": [
+                "DELETE %Game%/fnaf9/Content/Movies/Menu.mp4"
+            ],
             "disable": [
                 "DISABLE %Game%/fnaf9/Content/Paks/fnaf9.pak",
                 "DISABLE %LocalAppData%/fnaf9/Saved/Config/WindowsNoEditor/Engine.ini",
-                "DISABLE %Game%/fnaf9/Content/Movies/Menu.mp4"
+                "DISABLE %Game%/fnaf9/Content/Movies/BGLoop.mp4",
+                "DISABLE %Game%/fnaf9/Content/Movies/cb0eq0.mp4",
+                "DISABLE %Game%/fnaf9/Content/Movies/Intro.mp4",
+                "DISABLE %Game%/fnaf9/Content/Movies/Loading_Screen_2.mp4",
+                "DISABLE %Game%/fnaf9/Content/Movies/Loop.mp4",
+                "DISABLE %Game%/fnaf9/Content/Movies/Outro.mp4"
             ],
             "uninstall": [
                 "DELETE %Game%/fnaf9/Content/Paks/fnaf9.pak",
                 "DELETE %LocalAppData%/fnaf9/Saved/Config/WindowsNoEditor/Engine.ini",
-                "DELETE %Game%/fnaf9/Content/Movies/Menu.mp4"
+                "DELETE %Game%/fnaf9/Content/Movies/BGLoop.mp4",
+                "DELETE %Game%/fnaf9/Content/Movies/cb0eq0.mp4",
+                "DELETE %Game%/fnaf9/Content/Movies/Intro.mp4",
+                "DELETE %Game%/fnaf9/Content/Movies/Loading_Screen_2.mp4",
+                "DELETE %Game%/fnaf9/Content/Movies/Loop.mp4",
+                "DELETE %Game%/fnaf9/Content/Movies/Outro.mp4"
             ],
             "backup": "%LocalAppData%/fnaf9/Saved/SaveGames"
         }
