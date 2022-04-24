@@ -2,17 +2,17 @@
     "products": [
         {
             "name": "FNaF Security Alert",
-            "version": "0.5.0",
+            "version": "0.5.1",
             "description": "Play Five Nights at Freddy's Security Breach multiplayer with friends, against one another and the AI.",
             "id": 747660,
             "store": 747660,
             "size": "1.4 GB",
-            "release": "19 April, 2022",
+            "release": "24 April, 2022",
             "banner": "https://cdn.cloudflare.steamstatic.com/steam/apps/747660/library_hero.jpg",
             "support": "https://discord.gg/UtkrFvFQbn",
             "path": "Quarters",
             "download": "https://mega.nz/folder/YihnRKKT#oIb1Iitxb3B56MO4cxeBLQ",
-            "changelog": "## 0.5.0\n### Added Features\n- New immersive and awesome loading screen and menu, it's shiny!\n- Reworked UI, keeping things clean and simple;\n- More control over the match setup (Choose your area, time limit, include AI in particular modes etc);\n- New Monty Boss mode, or should we say...El Monty?\n- Fixes made to the AI in AI vs Gregory mode;\n- New area available: Atrium;\n- Public lobbies has replaced private sessions (Sessions may vary based on region, double check your location in the steam settings before starting or joining sessions!);\n- When a match is over, all players are sent back to the session lobby with the same settings ready to go again. Should the players decide to change the mode or settings, they may do so by bringing up the side menu to the left and clicking the all new Main Menu button.\n### Bug Fixes\n- When entering a session, you will need to press ESC and then click Resume in the menu, not doing so will lock mouse movement. This will be looked into;\n- Do not use the elevators when starting a session, this will cause the clients to crash and the host to cry;\n- When enabling AI in Hide and Seek, there's a chance the animatronics will decide to stop looking for gregory and instead think about all the terrible choices they made in life.",
+            "changelog": "## 0.5.0\n### Added Features\n- New immersive and awesome loading screen and menu, it's shiny!\n- Reworked UI, keeping things clean and simple;\n- More control over the match setup (Choose your area, time limit, include AI in particular modes etc);\n- New Monty Boss mode, or should we say...El Monty?\n- Fixes made to the AI in AI vs Gregory mode;\n- New area available: Atrium;\n- Public lobbies has replaced private sessions (Sessions may vary based on region, double check your location in the steam settings before starting or joining sessions!);\n- When a match is over, all players are sent back to the session lobby with the same settings ready to go again. Should the players decide to change the mode or settings, they may do so by bringing up the side menu to the left and clicking the all new Main Menu button.\n### Bug Fixes\n- When entering a session, you will need to press ESC and then click Resume in the menu, not doing so will lock mouse movement. This will be looked into;\n- Do not use the elevators when starting a session, this will cause the clients to crash and the host to cry;\n- When enabling AI in Hide and Seek, there's a chance the animatronics will decide to stop looking for gregory and instead think about all the terrible choices they made in life.\n\n## 0.5.1\n- Added private lobbies back, alongside the public ones.",
             "arguments": ["-dx11"],
             "install": [
                 "EXTRACT 1 %Game%/fnaf9/Content/Paks",
